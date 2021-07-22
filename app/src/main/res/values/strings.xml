@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HelloLJX</string>
+    <string name="My_name">Low Jung Xuan</string>
+    <string name="ShowQR">Show QR</string>
+    <string name="HideQR">Hide QR</string>
+    <string name="myBio">Application
+    \n 6270336 Lans Koperal Low Jung Xuan
+        \n Kursus APMS
+        \n Kursus KADAR
+        \n Kursus Senjata Kecil
+    </string>
+    <string name="todo">TODO</string>
+</resources>

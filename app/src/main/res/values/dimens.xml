@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--sp==scales pixels -->
+    <!--dp==density independent pixel-->
+    <dimen name="fontside">18sp</dimen>
+    <dimen name="padding">10dp</dimen>
+</resources>

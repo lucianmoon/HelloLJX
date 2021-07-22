@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/myFontStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/My_name" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/profile_pic"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ShowQR" />
+
+    <ImageView
+        android:id="@+id/imageViewQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ljx_qrcode" />
+
+    <TextView
+        android:id="@+id/myBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/myBio" />
+</LinearLayout>
